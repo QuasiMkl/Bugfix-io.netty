@@ -15,5 +15,5 @@
 
 6.完成了!!
 
-### 更新netty版本可以解決一下的問題:
+### 更新netty版本可以解決如以下的問題:
 `NetworkDispatcher exception io.netty.channel.unix.Errors$NativeIoException: syscall:writev(…) failed: Broken pipe`
