@@ -9,9 +9,9 @@
 
 3.打開剛才下載的`netty api`，進入到`netty-4.1.37.Final.tar.bz2\netty-4.1.37.Final.tar\netty-4.1.37.Final\jar\all-in-one\netty-all-4.1.37.Final.jar\io\netty\`
 
-4.刪除`minecraft_server.1.12.2.jar`裡的`handler``channel``util``buffer``resolver``bootstrap`資料夾
+4.刪除`minecraft_server.1.12.2.jar`裡的`handler` `channel` `util` `buffer` `resolver` `bootstrap`資料夾
 
-5.然後再將`netty api`裡的`handler``channel``util``buffer``resolver``bootstrap`資料夾，複製到`minecraft_server.1.12.2.jar`裡面
+5.然後再將`netty api`裡的`handler` `channel` `util` `buffer` `resolver` `bootstrap`資料夾，複製到`minecraft_server.1.12.2.jar`裡面
 
 6.完成了!!
 
