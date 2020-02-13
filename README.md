@@ -1,7 +1,8 @@
 # Bugfix-io.netty (Unknown Source)
 ### Server端出現以下錯誤:
-`NetworkDispatcher exception io.netty.channel.unix.Errors$NativeIoException: syscall:write(..) failed: Broken pipe at io.netty.channel.unix.FileDescriptor.writeAddress(..)(Unknown Source) ~[minecraft_server.1.12.2.jar:?]`
-### 以下修正錯誤步驟:
+`NetworkDispatcher exception io.netty.channel.unix.Errors$NativeIoException: syscall:write(..) failed: Broken pipe`
+`at io.netty.channel.unix.FileDescriptor.writeAddress(..)(Unknown Source) ~[minecraft_server.1.12.2.jar:?]`
+### 以下錯誤修正步驟:
 1.下載最新的`netty`完整軟件包API: https://netty.io/
 
 2.打開服務器jar`minecraft_server.1.12.2.jar`進入到`minecraft_server.1.12.2.jar\io\netty\`
@@ -13,3 +14,6 @@
 5.然後再將`netty api`裡的`handler``channel``util``buffer``resolver``bootstrap`資料夾，複製到`minecraft_server.1.12.2.jar`裡面
 
 6.完成了!!
+
+### 更新netty版本可以解決一下的問題:
+`NetworkDispatcher exception io.netty.channel.unix.Errors$NativeIoException: syscall:writev(…) failed: Broken pipe`
